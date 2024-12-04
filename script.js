@@ -75,3 +75,12 @@ btn.onclick = function () {
   return;
 };
 // ------------------------------ FIN: validation du input6----------------------------
+
+// ------------------------------DEBUT: ajouter une class lors d'un clic ----------------------------
+add.onclick = function () {
+  textModifier.classList.add("addColor");
+};
+// ------------------------------FIN: ajouter une class lors d'un clic ----------------------------
+
+// -------------------------------debut:chrono..................................
+

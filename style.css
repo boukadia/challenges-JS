@@ -37,3 +37,7 @@ img{
 .hidden{
     display: none;
 }
+.addColor{
+    background-color: rgb(22, 21, 21);
+    color: white;
+}

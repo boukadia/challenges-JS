@@ -4,3 +4,36 @@ div .e{
 img{
     width: 177px;
 }
+.menu{
+    
+   width: fit-content;
+    background-color: rgba(250, 235, 215, 0);
+    padding: 1%;
+    border-radius: 1rem;
+   opacity: 0.6;
+}
+
+
+.menuC{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 1%;
+    border-radius: 1rem;
+   opacity: 0.6;
+
+}
+.menuC div{
+    margin-top: 1rem;
+}
+
+.menu div div:hover{
+    background-color: rgb(230, 137, 15);
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+.menu div{
+    padding: 0.05rem;
+}
+.hidden{
+    display: none;
+}

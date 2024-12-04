@@ -7,24 +7,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body onclick="show(event)">
-    <div class="container" style="display: flex; gap: 10px;">
-      <i class="navbar fa-solid fa-bars"></i>
+  <body >
+    
+<div  class="menu">
+  <i onclick="showMenu()" class="navbar fa-solid fa-bars"></i>
+  <div class="menuC">
+  <div class="hidden" >acceuil</div>
+  <div class="hidden">recherche</div>
+  <div class="hidden">contact</div>
+  <div class="hidden">about</div>
+
+  </div>
+</div>
+
+    <div class="container "  style="display: flex; gap: 10px;">
+      
       <button class="add">add</button>
-      <button class="delete">delete</button>
-      <button class="modifier">modifier</button>
+      <button class="nombreClique">nombreClique</button>
+      <button class="affiche">affichage-hidden</button>
     </div>
-    <div class="position">
+    <div onclick="show(event)" class="position" style="background-color: antiquewhite;">
       <p class="coordonnes">
        <br>
       </p>
-
     </div>
-    <div class="carte" style="text-align: center;width: 200px;" >
+    <div class="nbrClique">
+      nombre du clique est: <span>nombre</span>
+    </div>
+    <div class="carte" hidden style="text-align: center;width: 200px;" >
         <h5 class="name">name</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab, delectus quasi similique rerum cumque vitae laudantium! Veniam, expedita atque.</p>
         <img src="./image/Montre électronique multifonction simple et tendance - Silver _ Red Screen Crude Steel.jpg" alt="">
     </div>
+    <div on="" >
+      <p style="width: fit-content;" class="text-modifier">hello world! </p>
+    </div >
     <script src="script.js"></script>
   </body>
 </html>
